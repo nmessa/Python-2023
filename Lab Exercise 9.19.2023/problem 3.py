@@ -3,12 +3,14 @@
 ## This program demonstrates the use of lists
 
 #Create empty list
-names = []
+#Add code here
 
-#Create list with 5 names
-for i in range(5):
-    name = input("Enter name: ")
-    names.append(name)
+
+
+#add 5 names to the list
+#Add code here
+
+
 
 #print the list
 print("The list now contains: ")
@@ -17,8 +19,9 @@ for i in range(len(names)):
 print()
 
 #print the third element
-print ("The third element is", names[2])
-print()
+#Add code here
+
+
 
 ##Output
 ##Enter name: Mary

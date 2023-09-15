@@ -1,14 +1,16 @@
 ## Lab Exercise 9/19/2023 Problem 2
-## Author: nmessa
+## Author: 
 ## This program demonstrates the use of lists
 
 #Create empty list
-names = []
+#Add code here
 
-#Create list with 5 names
-for i in range(5):
-    name = input("Enter name: ")
-    names.append(name)
+
+
+#Add 5 names to the list
+#Add code here
+
+
 
 #print the list
 print("The list now contains: ")
@@ -17,7 +19,11 @@ for i in range(len(names)):
 print()
 
 #Sort the list
-names.sort()
+#Add code here
+
+
+
+
 #print the list
 print("The sorted list is: ")
 for i in range(len(names)):

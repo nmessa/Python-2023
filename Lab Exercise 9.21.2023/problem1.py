@@ -1,10 +1,9 @@
 ## Lab Exercise 9/21/2023 Problem 1
-## Author: nmessa
+## Author: 
 ## creates a reversed string
 def reverseString(s):
-    newString = ""
-    for i in range(len(s)-1, -1, -1):
-        newString += s[i]
+    #Add code here
+    
     return newString
 
 #Test Code

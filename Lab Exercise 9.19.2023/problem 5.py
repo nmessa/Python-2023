@@ -1,15 +1,18 @@
 ## Lab Exercise 9/19/2023 Problem 5
-## Author: nmessa
+## Author: 
 ## This program reverses a list
 
-#Devine a list
-myList = [100, 200, 300, 400, 500]
+#Define a list
+#Add code here
+
 
 #Reverse the list
-myList.reverse()
+#Add code here
+
 
 #Print the list
-print(myList)
+#Add code here
+
 
 #Output
 #[500, 400, 300, 200, 100]

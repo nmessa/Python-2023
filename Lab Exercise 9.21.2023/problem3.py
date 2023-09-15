@@ -1,11 +1,10 @@
 ## Lab Exercise 9/21/2023 Problem 3
-## Author: nmessa
+## Author: 
 ## Calculate a gymnastic score
 def gymScore(scores):
-    minimum = min(scores)
-    maximum = max(scores)
-    total = sum(scores) - maximum - minimum
-    average = total/3
+    #Add code here
+
+    
     return average
 
 #Test Code

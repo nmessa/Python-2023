@@ -1,5 +1,4 @@
-## Lab Exercise 9/20/2023 Problem 3
-## Author: nmessa
+## Lab Exercise 9/20/2023
 ## Solves locker puzzle
 ##
 ## Shut = X
@@ -7,18 +6,20 @@
 ## X = False
 ## O = True
 
-#Create an empty list
-lockers = []
+#Create an empty list called lockers
+#Add code here
 
-#initialize lockers to all shut (False)
-for _ in range(1001):
-    lockers.append(False)
 
-#students traverse lockers
-for student in range(1, 1001):
-    for locker in range(1, 1001):
-        if locker % student == 0:
-            lockers[locker] = not lockers[locker]
+
+#initialize lockers to  1000 lockers all shut (False)
+#Add code here
+
+
+
+#students traverse lockers and operate them as specified
+#Add code here
+
+
 
 #print locker state
 for locker in range(1,1001):

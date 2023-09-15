@@ -1,10 +1,11 @@
 ## Lab Exercise 9/21/2023 Problem 2
-## Author: nmessa
+## Author: 
 ## Calculate a series of recipricols
 def calcSeries(terms):
     total = 0
-    for n in range(1, terms+1):
-        total += 1/n
+    #Add code here
+
+    
     return total
 
 #Test Code

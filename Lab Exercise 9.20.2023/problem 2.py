@@ -1,8 +1,8 @@
 ##Lab Exercise 9/20/2023 Problem 2
-##Author: nmessa
+##Author: 
 ##This program generates a list of 1000 elements
 ##The list contains random integers ranging from 1 to 10000
-##The program will then calculate the following descriptive statistics:
+##The program will then calculate the foolwoing descriptive statistics:
 ## mean
 ## median
 ## maximum
@@ -11,42 +11,50 @@
 
 import random
 
-#this function will calculate and return the mean of the data in the list
+#this function will calculate and return the mean of the data in the list nums
 def calcMean(nums):
-    mean = sum(nums)/len(nums)
+    #Add code here
+
+    
     return mean
 
-#this function will return the median of the data in the list
+#this function will return the median of the data in the list nums
 def findMedian(nums):
-    middle = len(nums)//2
-    if len(nums) % 2 == 0:
-        median = (nums[middle] + nums[middle - 1])/2
-    else:
-        median = nums[middle]
+    #Add code here
+
+
     return median
 
-#this function returns the maximum value of the data in the list
+#this function returns the maximum value of the data in the list nums
 def findLargest(nums):
-    #assumes sorted list
-    maxValue = nums[-1]  #index -1 is the last element in the list
+    #Add code here
+
+
     return maxValue
 
-#this function returns the minimum value of the data in the list
+#this function returns the minimum value of the data in the list nums
 def findSmallest(nums):
-    #assumes sorted list
-    minValue = nums[0]
+    #Add code here
+
+
     return minValue
 
 #this function returns the range of the data in the list
 def findRange(nums):
-    return findLargest(nums) - findSmallest(nums)
+    #Add code here
 
-#create an empty list
-numbers = []
+
+    return range
+
+#create an empty list called numbers
+#Add code here
+
+
 
 #generate list
-for _ in range(1000):
-    numbers.append(random.randint(1, 10000))
+#Add code here
+
+
 
 #uncomment this code to print the list in 10 columns
 ##for i in range(len(numbers)):
@@ -55,7 +63,9 @@ for _ in range(1000):
 ##        print
 
 #sort the list
-numbers.sort()
+#Add code here
+
+
 
 print ('Mean =', calcMean(numbers))
 print ('Median =', findMedian(numbers))

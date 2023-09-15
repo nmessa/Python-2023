@@ -2,23 +2,16 @@
 ##Author: nmessa
 
 def waveCat(f):
-    wl = 3e8/f
-    if wl<= 1e3 and wl > 1e-1:
-        return "Radio Wave"
-    elif wl<= 1e-1 and wl > 1e-3:
-        return "Microwave"
-    elif wl<= 1e-3 and wl > 1e-6:
-        return "Infrared Radiation"
-    elif wl<= 0.8e-6 and wl > 0.5e-6:
-        return "Visible Light"
-    elif wl<= 1e-7 and wl > 1e-8:
-        return "Ultraviolet Radiation"
-    elif wl<= 1e-8 and wl > 1e-11:
-        return "X-Rays"
-    elif wl<= 1e-11 and wl > 1e-13:
-        return "Gamma Rays"
-    else:
-        return "Not in EM spectrum"
+    #Calculate wavelength
+    #Add code here
+    
+
+    #Test for type of EM Wave
+    #Add code here
+
+
+
+    
 
 #Test Code
 print(waveCat(100.3e6)) #WHEB
